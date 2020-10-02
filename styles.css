@@ -7,7 +7,7 @@ body {
   color: black;
   padding: 50px ;
   font-weight:10;
-  overflow: hidden;
+  overflow:visible !important;
 }
 
 h1{
@@ -114,9 +114,6 @@ h1{
             }
     .container{
       justify-content: center;
-      width:fit-content; 
-      height:fit-content;
-      overflow:hidden;
     }
     .bottom{
      margin-top: 15px;
